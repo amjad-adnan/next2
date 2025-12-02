@@ -14,8 +14,10 @@ class AuthControler extends Controller
        $data = $request->validate([
             "name" =>"required|string",
             "email"=>"required|email|unique:users,email",
-            "password"=>"required"
+            "password"=>"required|confirmed"
         ]);
+
+        //password_confirmation
 
         user::crate($date);
 
