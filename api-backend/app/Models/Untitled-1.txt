@@ -1,0 +1,21 @@
+
+
+AuthController -> Login, Register, profile,logout API
+
+ProductController -> 
+
+-> List Product API
+
+-> create Product API
+
+-> Single Product Details API
+
+-> Update Product API
+
+-> Delete Product API
+
+Sanctum
+
+api.php 
+
+cors.php
